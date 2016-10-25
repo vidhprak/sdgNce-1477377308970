@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: sdgNce
+  host: sdgNce
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-iu
+  - availability-monitoring-auto
